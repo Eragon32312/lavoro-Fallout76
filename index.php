@@ -40,10 +40,11 @@
           </li>
         </ol>
 
+
         <!-- immagine fallout 76 + bottone -->
           <div class="container">
             <h2>Fallout76</h2>
-            <img src="images/vaultboy.jpg" alt="vault_boy"style="width:250px;height:130px;">
+            <img src="images/vaultboy.jpg" alt="vault_boy"style="width:250px;height:140px;">
 
               <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                 <div class="btn-group" role="group">
@@ -73,7 +74,8 @@
               <div class="row">
                 <div class="col-5">
                   <div class="embed-responsive embed-responsive-4by3">
-                    <iframe <iframe width="auto" height="auto" src="https://www.youtube.com/embed/M9FGaan35s0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/M9FGaan35s0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </a>
                   </div>
                 </div>
               </div>
@@ -152,6 +154,19 @@
                   </div>      
                 </div>
 
+
+<?php
+	$saluta = true;
+if ($saluta == true) {
+ 	echo "ciao";
+ } 
+ else {
+ 	echo "birra";
+ }
+
+?>
+
+   
 
 
 
